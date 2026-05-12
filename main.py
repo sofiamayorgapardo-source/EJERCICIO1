@@ -6,3 +6,15 @@ print("2. Ingresar un solo estudiante")
 for e in range(cantidad):
 
     print(f" Estudiante #{e + 1}")
+# Si elige varios estudiantes
+if opcion == 1:
+    cantidad = int(input("¿Cuántos estudiantes desea ingresar?: "))
+
+# Si elige un solo estudiante
+elif opcion == 2:
+    cantidad = 1
+
+# Opción inválida
+else:
+    print("Opción no válida")
+    cantidad = 0
