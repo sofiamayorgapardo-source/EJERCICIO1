@@ -1,4 +1,4 @@
-input("Bienvenidos al programa para saber tus nota Sa continuacion sigue los pasos a seguir")
+input("Bienvenidos al programa para saber tus nota Su continuacion sigue los pasos a seguir gracias por usar nuetro programa te lo ageradesco de corazon")
 # Menú de opciones
 print("1. Ingresar varios estudiantes")
 print("2. Ingresar un solo estudiante")
