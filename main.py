@@ -18,3 +18,29 @@ elif opcion == 2:
 else:
     print("Opción no válida")
     cantidad = 0
+        # Solicitar nombre
+    nombre = input("Ingrese el nombre del estudiante: ")
+
+    # Lista para guardar las notas
+    notas = []
+
+    # Solicitar 5 notas
+    for i in range(5):
+        nota = float(input(f"Ingrese la nota #{i + 1}: "))
+        notas.append(nota)
+
+    # Calcular promedio
+    promedio = sum(notas) / 5
+
+    # Mostrar resultados
+    print("Resultado")
+    print("Estudiante:", nombre)
+    print("Notas:", notas)
+    print("Promedio:", promedio)
+
+    # Evaluar desempeño
+    if promedio >= 4.5:
+        print("Estado: Excelente")
+    elif promedio >= 3.0:
+        print("Estado: Aprobado")
+     else: print("Estado: Reprobado")
